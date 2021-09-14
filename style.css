@@ -1,68 +1,106 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 /* header */
 header {
-    background-color: orange;
-    height: 100px;
-    padding: 0 16px;
+  background-color: orange;
+  height: 100px;
+  padding: 0 16px;
 }
 header img {
-    float: left;
-    margin-top: 15px;
-    margin-bottom: 15px;
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
   header nav {
-    float: right;
+  float: right;
 }
 .menu {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 header nav ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 16px;
-    margin: 5px;
+  list-style: none;
+  display: inline-block;
+  padding: 16px;
+  margin: 5px;
 }
 /* class */
 .personal-data-container {
-    width: 1000px;
-    height: 100%;
-    margin: 0 auto;
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
 }
 .personal-data { 
-    height: 300px;
+  height: 300px;
     
 }
 .personal-information {
-    float: left;
-    width: 50%;
+  float: left;
+  width: 50%;
 }
 .personal-picture {
-    height: 250px;
-    float: right;
-    width: 50%;
-    margin: 21.280px 0;
-    text-align: center;
+  height: 250px;
+  float: right;
+  width: 50%;
+  margin: 21.280px 0;
+  text-align: center;
 }
 .general-container {
-    width: 1000px;
-    height: 100%;
-    margin: 0 auto;
-    text-align: center;
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
 
 }
 .general-aspects {
     
-    padding: 50px;
+  padding: 50px;
 }
 .card {
-    display: inline-block;
-    width: 200px;
-    margin: 0 45px;
+  display: inline-block;
+  width: 200px;
+  margin: 0 45px;
+}
+/* apps frecuentes */
+
+.tecnology-experience {
+  display: inline;
+  height: 200px;
+  width: 200px;
+  margin: 10px 45px;
+  text-align: center;
+}
+
+
+
+
+/* integrantes */
+.integrantes {
+  padding: 0 16px;
+  padding-bottom: 26px;
+}
+  
+.integrantes ul {
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  width: 1200px;
+}
+  
+.integrante {
+  display: inline-block;
+  margin-bottom: 16px;
+  margin-right: 16px;
+ width: 270px;
+}
+  
+.integrantes div {
+  margin: 0 auto;
+  padding: 26px 0;
+  width: 1200px;
 }
 
 
@@ -73,81 +111,81 @@ header nav ul li {
 
 /* footer */
 footer {
-    background-color: darkolivegreen;
-    color: antiquewhite;
-  }
+  background-color: darkolivegreen;
+  color: antiquewhite;
+}
   
-  .redes-sociales-footer {
-    margin: 0 auto;
-    height: 400px;
-    padding-top: 100px;
-    width: 1200px;
-  }
+.redes-sociales-footer {
+  margin: 0 auto;
+  height: 400px;
+  padding-top: 100px;
+  width: 1200px;
+}
   
-  .redes-sociales-footer ul,
-  .redes-sociales-footer article {
-    display: inline-block;
-    width: 50%;
-  }
+.redes-sociales-footer ul,
+.redes-sociales-footer article {
+  display: inline-block;
+  width: 50%;
+}
   
-  .redes-sociales-footer article {
-    float: right;
-  }
+.redes-sociales-footer article {
+  float: right;
+}
   
-  .footer-nav,
-  .footer-social-network-links {
-    margin: 0;
-    list-style: none;
-    padding: 0;
-  }
+.footer-nav,
+.footer-social-network-links {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
   
-  .footer-nav {
-    float: left;
-  }
+.footer-nav {
+  float: left;
+}
   
-  .redes-sociales-footer li {
-    font-size: 21px;
-    margin-bottom: 20px;
-  }
+.redes-sociales-footer li {
+  font-size: 21px;
+  margin-bottom: 20px;
+}
   
-  .footer-social-network-links li {
-    display: inline-block;
-    margin-right: 24px;
-  }
+.footer-social-network-links li {
+  display: inline-block;
+  margin-right: 24px;
+}
   
-  .footer-social-network-links a {
-    color: #FFFFFF;
-  }
+.footer-social-network-links a {
+  color: #FFFFFF;
+}
   
-  .footer-social-network-links svg {
-    height: 24px;
-    width: 24px;
-  }
+.footer-social-network-links svg {
+  height: 24px;
+  width: 24px;
+}
   
-  .icono-facebook:hover {
-    color: #0869FB;
-  }
+.icono-facebook:hover {
+  color: #0869FB;
+}
 
-  .icono-twitter:hover {
-      color: cornflowerblue;
-  }
+.icono-twitter:hover {
+  color: cornflowerblue;
+}
   
-  .icono-linkedin:hover {
-      color: blue;
-  }
+.icono-linkedin:hover {
+  color: blue;
+}
 
-  .icono-youtube:hover {
-      color: crimson;
-  }
+.icono-youtube:hover {
+  color: crimson;
+}
   
-  .icono-telephone:hover {
-      color: black;
-  }
-  .copyright-footer {
-    text-align: center;
-    padding: 24px;
-  }
+.icono-telephone:hover {
+  color: black;
+}
+.copyright-footer {
+  text-align: center;
+  padding: 24px;
+}
   
-  .copyright-footer p {
-    margin: 0;
-  }
+.copyright-footer p {
+  margin: 0;
+}
