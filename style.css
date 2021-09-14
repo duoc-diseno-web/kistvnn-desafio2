@@ -1,3 +1,48 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: orange;
+    height: 100px;
+    padding: 0 16px;
+}
+header img {
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+  header nav {
+    float: right;
+}
+.menu {
+    text-decoration: none;
+    color: black;
+}
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 16px;
+    margin: 5px;
+}
+/* header terminado*/
+.personal-data-container {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+.personal-data { 
+    height: 250px;
+}
+.personal-information {
+    float: left;
+    width: 50%;
+}
+.personal-picture {
+    height: 250px;
+    float: right;
+    width: 50%;
+    margin: 21.280px 0;
+
 }
